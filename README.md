@@ -1,6 +1,6 @@
-# 📋 ClipSync Lite
+# 📋 ClipSync
 
-**ClipSync Lite** is a minimal Python-based clipboard sync tool that enables **bidirectional text sharing** between a Windows PC and an Android device over a local network. It uses AES encryption for privacy and a simple client-server model using Flask and requests.
+**ClipSync ** is a minimal Python-based clipboard sync tool that enables **bidirectional text sharing** between a Windows PC and an Android device over a local network. It uses AES encryption for privacy and a simple client-server model using Flask and requests.
 
 ### 🚀 Features
 - Bidirectional clipboard sync (Win ↔ Android)
