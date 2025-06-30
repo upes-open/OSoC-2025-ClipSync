@@ -1,6 +1,3 @@
-Here’s a `CONTRIBUTING.md` you can use for your project.
-
-
 ````markdown
 # 🙌 Contributing to ClipSync Lite
 
