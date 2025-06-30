@@ -1,5 +1,5 @@
 ````markdown
-# 🙌 Contributing to ClipSync Lite
+# 🙌 Contributing to ClipSync
 
 Thank you for your interest in contributing to this project! Please read these guidelines carefully before you begin.
 
@@ -7,18 +7,13 @@ Thank you for your interest in contributing to this project! Please read these g
 
 ## 📝 Overview
 
-**ClipSync Lite** synchronizes text clipboard data between Windows and Android devices over a local network. This repository contains the source code, issues, and documentation for the project.
+**ClipSync** synchronizes text clipboard data between Windows and Android devices over a local network. This repository contains the source code, issues, and documentation for the project.
 
 ---
 
 ## ✅ Getting Started
 
 1️⃣ **Clone the repository**
-
-```bash
-git clone https://github.com/yourusername/ClipSync-Lite.git
-cd ClipSync-Lite
-````
 
 2️⃣ **Create a virtual environment (recommended)**
 
