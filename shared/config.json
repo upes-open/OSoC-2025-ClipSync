@@ -1,1 +1,6 @@
 
+{
+  "windows_port": 5000,
+  "android_port": 5001,
+  "encryption_key": "your-256-bit-key-here"
+}
