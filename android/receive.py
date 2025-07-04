@@ -1,4 +1,3 @@
-'''Changed the file's location and name'''
 import os
 import json
 import base64
@@ -6,8 +5,10 @@ from flask import Flask, request, jsonify
 from Crypto.Cipher import AES
 import subprocess
 
-# Load config from shared/config.json
-with open('shared/config.json', 'r') as f:
+# Load config from shared/config.json (relative to this script)
+config_path = os.path.join(os.path.dirname(__file__), "..", "shared", "config.json")
+config_path = os.path.abspath(config_path)
+with open(config_path, 'r') as f:
     config = json.load(f)
 
 AES_KEY = base64.b64decode(config['aes_key'])
