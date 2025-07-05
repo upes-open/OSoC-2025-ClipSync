@@ -9,7 +9,8 @@ def load_config():
         return json.load(f)
 
 config = load_config()
-PORT = config.get('windows_port', 5000)  
+PORT = config.get('local_port', 5000)
+
 
 app = Flask(__name__)
 
