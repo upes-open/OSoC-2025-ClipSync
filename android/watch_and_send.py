@@ -9,10 +9,8 @@ from kivy.clock import Clock
 from kivy.core.window import Window
 from kivy.logger import Logger
 from kivy.core.clipboard import Clipboard
-import threading
-import time
 
-# Required for Android
+# Required for Android (will not run on desktop)
 try:
     from android.permissions import request_permissions, Permission
     from android.runnable import run_on_ui_thread
@@ -187,18 +185,16 @@ class FloatingClipboardWidget(FloatLayout):
         
         Logger.info(f"ClipSync: Clipboard changed - {len(new_content)} characters")
         
-        # Here you would typically send the content to other devices
-        # For now, we just log it
+        # in the next function we send data to the other devices , ( currently just logging)
         self.process_clipboard_content(new_content)
     
     def process_clipboard_content(self, content):
         """Process the clipboard content (placeholder for sync logic)"""
-        # This is where you would implement the actual sync logic
-        # For example: encrypt and send to other devices
+        # placeholder for syncing logic
         
         Logger.info(f"ClipSync: Processing clipboard content: {content[:50]}...")
         
-        # Placeholder - in a real implementation, you would:
+        # Placeholder - in future we will add :
         # 1. Encrypt the content using your AES crypto
         # 2. Send it to configured devices
         # 3. Handle any network errors
